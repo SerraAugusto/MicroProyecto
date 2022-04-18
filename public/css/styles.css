@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+.logoImg {
+  align-items: center;
+  width: 30%;
+}
+
+body {
+  background-color: #eac926;
+  font-family: Roboto;
+  margin: 0;
+}
+
+.titular {
+  font-size: 24px;
+}
+
+.preci {
+  font-size: 18px;
+}
+.descripcions {
+  font-size: 16px;
+}
+.descuent {
+  font-size: 16px;
+}
+@media (max-width: 480px) {
+  .burger-menu {
+    background-color: #03264c;
+    width: 10vw;
+    height: 10vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    border-radius: 2vw;
+  }
+}
+@media (min-width: 481px) and (max-width: 760px) {
+  .burger-menu {
+    background-color: #03264c;
+    width: 9vw;
+    height: 9vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    border-radius: 2vw;
+  }
+}
+@media (min-width: 760px){
+    .burguerMenuCenter {
+    display: none;
+}
+}
+
+
+.bannerImg {
+  width: 100vw;
+}
+home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-content: center;
+}
+
+main {
+  width: 90%;
+}
+.productImg {
+  height: 60vw;
+  width: 60vw;
+}
+
+.iconFooter {
+  margin-bottom: 10px;
+  font-size: 2em;
+  margin-top: 10px;
+  color: #03264c;
+}
+
+.searchBarContainer {
+  display: flex;
+}
+
+.copyrightStyle {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+a:visited {
+  color: inherit;
+}
+
+.sizeTextPrice li:nth-child(2) {
+  font-size: 18px;
+}
+
+.sizeTextOffDescripcion li:nth-child(n + 3) {
+  font-size: 16px;
+}
+
+.descripcion {
+  font-size: 16px;
+}
+
+.borderSolidArticle {
+  border-style: solid 1px #ebebeb;
+}
