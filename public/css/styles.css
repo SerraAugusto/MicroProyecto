@@ -25,6 +25,14 @@ body {
 .descuent {
   font-size: 16px;
 }
+
+/*nav*/
+
+@media (max-width: 760px) {
+  .linksNavHidden {
+    display: none;
+  }
+}
 @media (max-width: 480px) {
   .burger-menu {
     background-color: #03264c;
@@ -41,22 +49,26 @@ body {
 @media (min-width: 481px) and (max-width: 760px) {
   .burger-menu {
     background-color: #03264c;
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: 4vw;
     border-radius: 2vw;
   }
 }
-@media (min-width: 760px){
-    .burguerMenuCenter {
+@media (min-width: 761px) {
+  .burguerHidden {
     display: none;
-}
+  }
 }
 
+.burguerMenuCenter {
+  display: flex;
+  justify-content: center;
+}
 
 .bannerImg {
   width: 100vw;
